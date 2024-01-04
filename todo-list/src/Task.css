@@ -1,0 +1,33 @@
+.taskCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 815px;
+    padding: 0 30px;
+    border: 1px solid #000;
+    background-color: yellow;
+}
+
+.taskCardCompleted {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 815px;
+    padding: 0 30px;
+    border: 1px solid #000;
+    background-color: green;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.remove, .complete {
+    font-size: 50px;
+    border: 1px dotted #000;
+    cursor: pointer;
+}
+
+.remove:hover, .complete:hover {
+    color: red
+}
